@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Technology Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- Simplified and Minimalist Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <header id="home" class="text-white text-center py-5 hero-bg">
+        <div class="container d-flex flex-column align-items-center">
+            <img src="assets/logo.jpg" alt="Creative Technology Services Logo" class="rounded-circle hero-logo">
+            <h1 class="hero-title">Creative Technology Services</h1>
+            <p class="hero-slogan">"Innovative solutions, tailored for you"</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">About Us</h2>
+            <p class="lead">Creative Technology Services specializes in delivering cutting-edge solutions to meet your business needs. Our team of experts is dedicated to providing tailored services to help you achieve your goals.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="assets/feature1.jpg" class="card-img-top" alt="Feature 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 1</h5>
+                            <p class="card-text">Our innovative feature ensures seamless integration with your existing systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="assets/feature2.jpg" class="card-img-top" alt="Feature 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 2</h5>
+                            <p class="card-text">Enhance your productivity with our easy-to-use tools and platforms.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="assets/feature3.jpg" class="card-img-top" alt="Feature 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 3</h5>
+                            <p class="card-text">Our team is committed to providing exceptional support and guidance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/service1.jpg" class="card-img-top" alt="Web Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">We create stunning and responsive websites tailored to your needs.</p>
+                            <a href="#contact" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/service2.jpg" class="card-img-top" alt="App Development">
+                        <div class="card-body">
+                            <h5 class="card-title">App Development</h5>
+                            <p class="card-text">Our apps are user-friendly, scalable, and built for success.</p>
+                            <a href="#contact" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/service3.jpg" class="card-img-top" alt="IT Consulting">
+                        <div class="card-body">
+                            <h5 class="card-title">IT Consulting</h5>
+                            <p class="card-text">We provide expert advice to enhance your business operations.</p>
+                            <a href="#contact" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-5 contact-bg">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="service" class="form-label">Service Interested In</label>
+                    <select class="form-select" id="service" required>
+                        <option value="" disabled selected>Choose a Service</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="app-development">App Development</option>
+                        <option value="it-consulting">IT Consulting</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Newsletter Section -->
+                <div class="col-md-6 text-start">
+                    <h5>Newsletter</h5>
+                    <form class="d-flex align-items-center">
+                        <input type="email" class="form-control me-2" placeholder="Your Email" required>
+                        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-md-6 text-end">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@creativetechnologyservices.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+            </div>
+            <p class="mt-4">&copy; 2024 Creative Technology Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

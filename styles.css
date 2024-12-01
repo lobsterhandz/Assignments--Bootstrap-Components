@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-bg {
+    background: url('assets/header-bg.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+}
+
+.hero-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.hero-logo:hover {
+    transform: rotate(360deg);
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #58a6ff;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero-slogan {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    font-style: italic;
+}
+
+.contact-bg {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+/* Navbar Link Styles */
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #343a40 !important; /* Dark gray color for better contrast */
+    font-weight: 500;
+    padding: 0.8rem; /* Extra padding for a cleaner look */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Light blue hover effect */
+}
+
+/* Navbar Background */
+.navbar {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for subtle depth */
+}
+
+
+/* Card Styles */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #161b22;
+    color: #f8f9fa;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+footer .form-control {
+    max-width: 300px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+footer button {
+    border-radius: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #adb5bd;
+}
